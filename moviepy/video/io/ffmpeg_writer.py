@@ -114,7 +114,6 @@ class FFMPEG_VideoWriter:
             pixel_format,
             "-r",
             "%.02f" % fps,
-            "-an",
             "-i",
             "-",
         ]
